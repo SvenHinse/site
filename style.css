@@ -1,0 +1,131 @@
+
+
+
+/* Style für www.svenhinse.de
+main
+25.11.2012
+*/
+
+* {
+       padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    height: 101%;
+
+}
+
+
+
+
+
+
+
+/*DIVs********/
+
+#container {
+    position: relative;
+    width: 990px;
+    top: 15px;
+    margin: auto;
+    min-height: 200px;
+
+
+}
+
+
+
+
+#content {
+    position: absolute;
+    top: 150px;
+    left:0px ;
+    width: 990px;
+    min-height: 100px;
+    background-image: url(img/content_bg_shadow.jpg);
+    background-repeat: repeat-y;
+
+
+}
+
+
+#header_image {
+    position: absolute;
+    top: 30px;
+    width: 990px;
+    height: 120px;
+    background-image: url("img/header_image.jpg");
+
+}
+
+#navi_main {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width:960px;
+    height: 36px;
+    background-color: #000;
+
+
+}
+
+
+#menu_left {
+    position: absolute;
+    width: 600px;
+    left: 30px;
+
+}
+#menu_right {
+    position: absolute;
+    width: 200px;
+    left: 700px;
+
+}
+
+
+
+
+
+/* ****styles in #navi_main  ****/
+
+
+#navi_main ul {
+    position: relative;
+
+    top:3px;
+    list-style: none;
+
+}
+#navi_main li {
+   float: left;
+    font-family: "Abel",Arial, sans-serif;
+    font-size: 20px;
+       padding-right: 15px;
+
+
+}
+#navi_main a, #navi_main a:visited{
+    color: #e2001a;
+    text-decoration: none;
+}
+
+
+#slide {position:absolute;
+    left:50px;
+    bottom:-3px;
+    height:4px;
+    background-color:#ffff00;
+    z-index:10;
+    width:0px; }
+
+
+
+#slide_right {position:absolute;
+    bottom:-3px;
+    height:4px; background:#ffff00;
+    z-index:10;
+width:0px}
+
